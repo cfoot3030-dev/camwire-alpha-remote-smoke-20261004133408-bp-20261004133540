@@ -1,0 +1,11 @@
+name: CAM Wire Semantic Commit
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  semantic-commit-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'semantic branch protection sentinel'
